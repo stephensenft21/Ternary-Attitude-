@@ -1,15 +1,5 @@
-export default {
-buildElement(newElement,id,textContent){
-    const element = document.createElement(newElement)
-    if (id) {
-        element.id = id
+const buildInterestForm = {
+InterestForm: () => {
+    const InterestArticle = document.createElement("Article")
 
-    }
-element.textContent = textContent
-
-return element
-}
-}
-
-
-
+}}
